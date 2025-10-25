@@ -1,5 +1,5 @@
 
-import 'package:figmatask/views/home_view.dart';
+import 'package:sipnudge/views/home_view.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 

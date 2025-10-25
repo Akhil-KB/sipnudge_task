@@ -1,4 +1,4 @@
-package com.example.figmatask
+package com.example.sipnudge
 
 import io.flutter.embedding.android.FlutterActivity
 

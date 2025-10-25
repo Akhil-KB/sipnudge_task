@@ -7,10 +7,10 @@ class AppColor {
     begin: Alignment.topLeft,
     end: Alignment.bottomRight,
   );
-  static final scaffoldBgGradient = LinearGradient(
-    colors: const [Color(0xFFB586BE), Color(0xFF131313)],
-    begin: Alignment.topLeft,
-    end: Alignment.bottomRight,
+  static final scaffoldBgGradient =  LinearGradient(
+    begin: Alignment(0.50, -0.00),
+    end: Alignment(0.50, 1.00),
+    colors: [const Color(0xFFB586BE), const Color(0xFF131313)],
   );
   static const selectedTabBgColor = Color(0xFFA964E0);
   static const tabBarBgColor = Color(0xFFFFFFFF);

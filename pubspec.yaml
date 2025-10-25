@@ -1,4 +1,4 @@
-name: figmatask
+name: sipnudge
 description: "A new Flutter project."
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
@@ -37,7 +37,7 @@ dependencies:
   flutter_screenutil: ^5.9.3
   fl_chart: ^1.1.1
   colorful_safe_area: any
-  shadow_widget: ^0.1.0
+  intl: any
 
 
 dev_dependencies:
