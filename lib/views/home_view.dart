@@ -44,20 +44,17 @@ class HomeView extends StatelessWidget {
                             end: Alignment(0.50, 1.00),
                             colors: [const Color(0xFFB586BE), const Color(0xFF131313)],
                           ),
-                        ), child: ListView(
+                        ), child:Column(
+                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
+                          SizedBox(height: 20,),
                           ChartTabBar(),
-
-                          const SizedBox(height: 30),
-
                           // Drink Completion Chart
                           ChartCard(),
-                          const SizedBox(height: 30),
-
                           // Hydration Source
                           HydrationCard(),
-                          SizedBox(height: 18,),
-                          Navbar()
+                          Navbar(),
+                          SizedBox(height: 10,),
                         ],
                       ),
                       ),
